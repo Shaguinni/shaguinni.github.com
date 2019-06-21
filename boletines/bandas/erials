@@ -3,27 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Favorite Rock Bands</title>
-    <link href="https://fonts.googleapis.com/css?family=Fresca&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="./font-awesome/css/all.css">
     <link href="./assets/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/animated.css">
     <!--<link href="./font-awesome/css/fontawesome.min.css" rel="stylesheet">-->
   </head>
   <body>
     <div class="container">
-      <div class="content animated pulse">
-
+      <div class="content">
         <header>
-          <h1 class="title">Mis bandas de Rock favoritas</h1>
+          <h1>Mis bandas de Rock favoritas</h1>
         </header>
-        <table class="table">
+        <table>
           <thead>
             <th>#</th>
             <th>Nombre</th>
             <th>Pais</th>
             <th>Calificación</th>
-            <th>Mas</th>
+            <th>Genero</th>
           </thead>
           <tbody>
             <tr>
@@ -37,9 +34,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
               </td>
-              <td>
-                <a href="./bandas/linkinpark.html" class="linkbandas">Ver más</a>
-              </td>
+              <td>New Metal</td>
             </tr>
             <tr>
               <td>2</td>
@@ -52,9 +47,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
               </td>
-              <td>
-                <a href="./bandas/adaytoremember.html" class="linkbandas">Ver más</a>
-              </td>
+              <td>Post-hardcore</td>
             </tr>
             <tr>
               <td>3</td>
@@ -67,9 +60,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
               </td>
-              <td>
-                <a href="./bandas/piercetheveil.html" class="linkbandas">Ver más</a>
-              </td>
+              <td>Post-hardcore</td>
             </tr>
             <tr>
               <td>4</td>
@@ -80,11 +71,8 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
               </td>
-              <td>
-                <a href="./bandas/erials.html" class="linkbandas">Ver más</a>
-              </td>
+              <td>New Wave Alternative</td>
             </tr>
             <tr>
               <td>5</td>
@@ -95,17 +83,14 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
               </td>
-              <td>
-                <a href="./bandas/cafetacuva.html" class="linkbandas">Ver más</a>
-              </td>
+              <td>Rock Alternativo</td>
             </tr>
 
           </tbody>
         </table>
-        <!--<p>Hola mundo</p>
-            <button id="boton-pago" type="button" name="button">Pagar</button>-->
+        <p>Hola mundo</p>
+            <button id="boton-pago" type="button" name="button">Pagar</button>
       </div>
 
     </div>

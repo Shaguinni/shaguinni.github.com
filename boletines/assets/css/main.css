@@ -1,18 +1,148 @@
-p{
+/*
+azul marino: #340787
+azul gris: #241A38
+gris obscuro: #0C021F
+gris con blanco: #B7A7D4
+negro: #000000
+rosa: #FF1ED8;
+
+*/
+/*p{
   color:blue;
+}*/
+html
+{
+  font-family: 'Fresca', sans-serif;
 }
-.red{
-height: 200px;
-width:100px;
-background-color: red;
+.linkbandas
+{
+  text-decoration: none;
+  color: #FF1ED8;
+}
+.linkbandas:hover    /* es para manejar la opacidad del link */
+{
+  opacity:0.5;
+}
+.linkbandas:active    /* es para cuando das click sobre el link subraya de x color la palabra */
+{
+  background:black;
+}
+.linkbandas:focus    /* activa el tab click sobre el link subraya de x color la palabra */
+{
+  background:black;
+}
+.title
+{
+  text-transform: uppercase;  /*Esta instrucción sirve para perzonalizar el texto, mayúsculas, minísculas, la primer letra mayúscula. etc  */
+  text-align: center;
+}
+.container{
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh; /*Esto indica que es el alto total de la página*/
+width: 100vw;  /*Esto indica que es el ancho total de la página*/
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.content
+{
+  max-width: 960px;
+  max-height: 500px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  /*box-shadow: DiferenciaHorizontal DiferenciaVertical desenfoque amplitud color; si quitas un valor seomite el de amplitud si omites otro valor se omite el desenfoque los demas sin obligatriso*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23), 0 3px 6px rgba(0, 0, 0, 0.50); /*rgba(0, 0, 0, 0.23) los primeros tres indican el color y el ultimo la opacidad*/
+  border-radius: 4px;
+  position: relative;
+  padding: 1.8em;
+}
+.actions
+{
+  position:absolute;
+  top:1em;
+  right: 1em;
+}
+.close
+{
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 50%;
+  background-color: #340787;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23), 0 3px 6px rgba(0, 0, 0, 0.50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.paragraph
+{
+  line-height: 1.8em;
+  font-weight: 200px;
+}
+.table
+{
+  width: 100%;
+  border-spacing: 0;
+}
+.table td, .table th
+{
+  padding: 1em;
+  text-align: left;
+}
+.table tr:nth-child(even)   /* esta instrucción sirve para perzonalizar el color de las filas, puedes pintar los elementos con: 1,2,3,4 ó bien puedes usar las palabras even u odd  */
+{
+  background-color: #464F59;
+}
+.fa-star, .fa-star-o
+{
+  color: #151A5C;
+}
+.title-item
+{
+  /*
+  border-style: solid; aplica alrededor de todo puedes usar border-botom-style (abajo) , border-top-style (arriba) , left y right para los lados-
+  border-width: 2px;
+  border-color: #464F59
+  Estas tres opciones se pueden abreviar de la siguiente manera:*/
+  border-bottom: #340787 solid 4px;
+  padding-bottom: 1em;
+  font-size: 2em;
+
+}
+.address
+{
+  font-weight: bold;
+  color: #340787;
+  font-size: 1.2em;
+}
+.position
+{
+  background-color: #340787;
+  color: white;
+  /*padding: 1em 2em 3em 4em;*/
+  padding: 10px;
+  border-radius: 4em;
+  /* con estos modos activos le das una vista redondeada y no cuadrada.
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  Todo eso lo puedes abreviar de la siguiente (short and court properties) manera : border-radius: 2em 2em 2em 2em    ó  border-radius: 2em;
+  */
+  margin-right: 0.5em;
 }
 #boton-pago{
 background-color: yellow;
 }
 
-table {
+/*table {
   border: red 5px solid;
 }
 td{
   border: 1px solid;
-}
+}*/
